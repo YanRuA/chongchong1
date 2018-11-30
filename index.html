@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<!-- 修改视口 -->
+	<meta name="viewport" content="width=device-width">
+	<title>首页</title>
+		<link rel="stylesheet" href="http://at.alicdn.com/t/font_938132_oyjb66gj2g.css">
+		<link rel="stylesheet" href="css/swiper.min.css">
+	<link rel="stylesheet" href="css/index.css">
+	<script src="js/rem.js"></script>
+</head>
+<body>
+<div class="daohangbox">
+	<div class="dingweitubiao">
+		<img src="img/dingwei.png" alt="" class="ding">
+	</div>
+	<div class="dingweizi">大马新村</div>
+	<div class="sousuokuang">
+		<div class="kuang">
+			<div class="kuangdian1">
+				<img src="img/yuan.png" alt="" class="dianyu1">
+			</div>
+			<div class="kuangzi1">搜索您喜欢的寄养家庭或机构</div>
+			<div class="kuangyuyin1">
+				<img src="img/yu.png" alt="" class="dianyu1">
+			</div>
+		</div>
+	</div>
+	<div class="saoyisao">
+		<img src="img/saosao.png" alt="" class="sao">
+	</div>
+</div>
+<div class="dahezi">
+	<div class="banner">
+        <div class="swiper-container">
+		    <div class="swiper-wrapper">
+		        <div class="swiper-slide">
+		        	<img src="img/1.png" alt="" class="tutu">
+		        </div>
+		        <div class="swiper-slide">
+		        <img src="img/2.jpg" alt="" class="tutu">
+		        </div>
+		        <div class="swiper-slide">
+		        	<img src="img/3.jpg" alt="" class="tutu">
+		        </div>
+		        <div class="swiper-slide">
+		        	<img src="img/4.jpg" alt="" class="tutu">
+		        </div>
+		    </div>
+		    <!-- 如果需要分页器 -->
+		    <!-- <div class="swiper-pagination"></div> -->
+		    
+		    <!-- 如果需要导航按钮 -->
+		    <!-- <div class="swiper-button-prev"></div>
+		    <div class="swiper-button-next"></div> -->
+		    
+		    <!-- 如果需要滚动条 -->
+		    <!-- <div class="swiper-scrollbar"></div> -->
+		</div>
+<!-- 	<img src="img/banner.png" alt="" class="ban"> -->
+</div>
+<div class="huitiao"></div>
+<div class="beijing">
+	<div class="lunbodian">
+	<img src="img/dian.png" alt="" class="dian">
+	</div>
+	<a href="erjiyemian.html"><div class="jiating">
+	<div class="jiazi">家庭寄养</div>
+	</div></a>
+	<div class="jigou">
+	<div class="jizi">机构寄养</div>
+	</div>	
+</div>
+<div class="tabbox">
+	
+	<div class="shouyebox">
+		<div class="shouyetubiao">
+			<img src="img/shouye.png" alt="" class="shoutubiao">
+		</div>
+		<div class="shouyezi">首页</div>
+	</div>
+	
+	<div class="chongquanbox">
+		<div class="chongquantubiao">
+			<img src="img/chongquan.png" alt="" class="chongtubiao">
+		</div>
+		<div class="chongquanzi">宠圈</div>
+	</div>
+
+	<div class="wodebox">
+		<div class="wodetubiao">
+			<img src="img/wode.png" alt="" class="wotubiao">
+		</div>
+		<div class="wodezi">我的</div>
+	</div>
+
+	<div class="xiaoxibox">
+		<div class="xiaoxitubiao">
+			<img src="img/xiaoxi.png" alt="" class="xiaotubiao">
+		</div>
+		<div class="xiaoxizi">消息</div>
+	</div>
+
+	<div class="maomao">
+		<div class="maobox">
+			<img src="img/mao.png" alt="" class="maomaomao">
+		</div>
+	</div>
+</div>
+</div>
+ <script src="js/swiper.min.js"></script>
+       <script>        
+  var mySwiper = new Swiper ('.swiper-container', {
+    direction: 'horizontal', // 垂直切换选项
+    loop: true, // 循环模式选项
+    speed:2000,
+    autoplay : {
+    delay:300
+  },
+  effect : 'fade',
+    
+    // 如果需要分页器
+    pagination: {
+      el: '.swiper-pagination',
+    },
+    
+    // 如果需要前进后退按钮
+    navigation: {
+      nextEl: '.swiper-button-next',
+      prevEl: '.swiper-button-prev',
+    },
+    
+    // 如果需要滚动条
+    // scrollbar: {
+    //   el: '.swiper-scrollbar',
+    // },
+  })        
+  </script>
+</body>
+</html>

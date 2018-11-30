@@ -1,0 +1,347 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+a{
+	text-decoration: none;
+}
+.daohangbox{
+	width: 100%;
+	height: 0.9rem;
+	background: white;
+	position: fixed;
+	left: 0;
+	top: 0;
+	z-index: 999;
+}
+.dingweitubiao{
+	width: 0.5rem;
+	height: 0.9rem;
+/* 	background: yellow; */
+	margin-left: 0.24rem;
+	float: left;
+}
+.dingweizi{
+	width: 1.2rem;
+	height: 0.9rem;
+/* 	background: red; */
+	float: left;
+	font-size: 0.24rem;
+	color: #b8b8b8;
+	line-height: 0.9rem;
+	text-align: center;
+}
+.sousuokuang{
+	width: 4.74rem;
+	height: 0.9rem;
+/* 	background: pink; */
+	float: left;
+}
+.saoyisao{
+	width: 0.58rem;
+	height: 0.9rem;
+/* 	background: blue; */
+	float: left;
+}
+.banner{
+	width: 7.5rem;
+	height: 4.15rem;
+	/* background: green; */
+
+
+}
+.swiper-container {
+    width: 100%;
+    height: 4.15rem;
+}  
+.tutu{
+	width: 100%;
+	height: 100%;
+	float: left;
+}
+.lunbodian{
+	width: 0.7rem;
+	height: 0.1rem;
+/* 	background: green; */
+	margin-bottom: 0.72rem;
+	margin-left: 3.4rem;
+}
+.jiating{
+	width: 7.02rem;
+	height: 3.01rem;
+/* 	background: red; */
+	margin-bottom: 0.48rem;
+	margin-left: 0.24rem;
+	background: url(../img/jiating.png) no-repeat center/auto 100%;
+
+}
+.jigou{
+	width: 7.02rem;
+	height: 3.01rem;
+/* 	background: red; */
+	margin-bottom: 0.95rem;
+	margin-left: 0.24rem;
+	background: url(../img/jigou.png) no-repeat center/auto 100%;
+}
+.ding{
+	width: 0.5rem;
+	height: 0.9rem;
+	float: left;
+}
+.sao{
+	width: 100%;
+	height: 100%;
+	float: left;
+}
+.dian{
+	width: 100%;
+	height: 100%;
+	float: left;
+}
+.ban{
+	width: 100%;
+	height: 100%;
+	float: left;
+}
+.beijing{
+	width: 100%;
+	height: 8.51rem;
+	background: #f8f8f8;
+	/* margin-bottom: 1.1rem; */
+}
+.kuang{
+	width: 4.55rem;
+	height: 0.6rem;
+	border-radius: 0.3rem;
+	background: #f7f7f7;
+	margin-top: 0.14rem;
+	margin-left: 0.1rem;
+}
+.huitiao{
+	width: 100%;
+	height: 0.24rem;
+	background: #f8f8f8;
+}
+.jia{
+	width: 100%;
+	height: 100%;
+	float: left;
+}
+.ji{
+	width: 100%;
+	height: 100%;
+	float: left;
+}
+.jiazi{
+	width: 1.73rem;
+	height: 0rem;
+	background: yellow;
+	float: left;
+	margin-left: 0.49rem;
+	margin-top: 0.90rem;
+	font-size: 0.38rem;
+	font-family: "微软雅黑";
+	font-weight:bold;
+	color: white;
+}
+.jizi{
+	width: 1.73rem;
+	height: 0rem;
+	background: yellow;
+	float: left;
+	margin-left: 0.49rem;
+	margin-top: 0.90rem;
+	font-size: 0.38rem;
+	font-family: "微软雅黑";
+	font-weight:bold;
+	color: white;
+}
+.tabbox{
+	width: 100%;
+	height: 1.1rem;
+	background: white;
+	float: left;
+/* 	box-shadow:0 -0.2rem 0.7rem 0.01rem #e8e8e8;  */
+	position: fixed;
+	left: 0;
+	bottom: 0;
+}
+.shouyebox{
+	width: 0.92rem;
+	height: 1.1rem;
+/* 	background: red; */
+	float: left;
+	margin-left: 0.24rem;
+}
+.shouyetubiao{
+	width: 0.6rem;
+	height: 0.69rem;
+/* 	background: pink; */
+	float: left;
+	margin-left: 0.15rem;
+}
+.shouyezi{
+	width: 0.6rem;
+	height: 0.24rem;
+/* 	background: yellow; */
+	float: left;
+	margin-left: 0.15rem;
+	font-size: 0.18rem;
+	font-family: "苹方";
+	color: #ff6988;
+	text-align:center;
+}
+.shoutubiao{
+	width: 100%;
+	height: 100%;
+	float: left;
+}
+.chongquanbox{
+	width: 0.92rem;
+	height: 1.1rem;
+/* 	background: red; */
+	float: left;
+	margin-left: 0.58rem;
+}
+.chongquantubiao{
+	width: 0.6rem;
+	height: 0.69rem;
+/* 	background: pink; */
+	float: left;
+	margin-left: 0.15rem;
+}
+.chongquanzi{
+	width: 0.6rem;
+	height: 0.24rem;
+/* 	background: yellow; */
+	float: left;
+	margin-left: 0.15rem;
+	font-size: 0.18rem;
+	font-family: "苹方";
+	color: #8d8d8d;
+	text-align:center;
+}
+.chongtubiao{
+	width: 100%;
+	height: 100%;
+	float: left;
+}
+.xiaoxibox{
+	width: 0.92rem;
+	height: 1.1rem;
+/* 	background: red; */
+	float: right;
+	margin-right: 0.58rem;
+}
+.xiaoxitubiao{
+	width: 0.6rem;
+	height: 0.69rem;
+/* 	background: pink; */
+	float: left;
+	margin-left: 0.15rem;
+}
+.xiaoxizi{
+	width: 0.6rem;
+	height: 0.24rem;
+/* 	background: yellow; */
+	float: left;
+	margin-left: 0.15rem;
+	font-size: 0.18rem;
+	font-family: "苹方";
+	color: #8d8d8d;
+	text-align:center;
+}
+.xiaotubiao{
+	width: 100%;
+	height: 100%;
+	float: right;
+}
+.wodebox{
+	width: 0.92rem;
+	height: 1.1rem;
+/* 	background: red; */
+	float: right;
+	margin-right: 0.24rem;
+}
+.wodetubiao{
+	width: 0.6rem;
+	height: 0.69rem;
+/* 	background: pink; */
+	float: left;
+	margin-left: 0.15rem;
+}
+.wodezi{
+	width: 0.6rem;
+	height: 0.24rem;
+/* 	background: yellow; */
+	float: left;
+	margin-left: 0.15rem;
+	font-size: 0.18rem;
+	font-family: "苹方";
+	color: #8d8d8d;
+	text-align:center;
+}
+.wotubiao{
+	width: 100%;
+	height: 100%;
+	float: right;
+}
+.maomao{
+	width: 0.9rem;
+	height: 0.9rem;
+	background-image:-webkit-linear-gradient(top,#fe9228,#ffd535);
+	border-radius: 50%;
+	margin-left: 3.3rem;
+	margin-top: -0.34rem;
+	box-shadow:0 0 0.5rem 0.02rem #ffda30;
+}
+.maobox{
+	width: 0.45rem;
+	height: 0.45rem;
+/* 	background: red; */
+	float: left;
+	margin-left: 0.22rem;
+	margin-top: -0.09rem;
+
+}
+.maomaomao{
+	width: 100%;
+	height: 100%;
+	float: left;
+}
+.kuangdian1{
+	width: 0.06rem;
+	height: 0.6rem;
+	float: left;
+/* 	background: red; */
+	margin-left: 0.29rem;
+}
+.kuangzi1{
+	width: 3.4rem;
+	height: 0.6rem;
+	float: left;
+/* 	background: blue; */
+	font-size: 0.21rem;
+	font-family: "苹方";
+	font-weight: bold;
+	color: #d6d6d6;
+	line-height: 0.6rem;
+	text-align: center;
+}
+.kuangyuyin1{
+	width: 0.4rem;
+	height: 0.6rem;
+	float: left;
+/* 	background: red; */
+	margin-left: 0.18rem;
+}
+.dianyu1{
+	width: 100%;
+	height: 100%;
+	float: left;
+}
+.dahezi{
+	margin-bottom:  0.9rem;
+	width: 100%;
+	height: 100%;
+}
